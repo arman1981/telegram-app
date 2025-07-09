@@ -1,0 +1,40 @@
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.tile {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  background: #f8f8f8;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.tile:hover {
+  background: #e2e2e2;
+}
+
+.footer {
+  margin-top: 30px;
+  padding: 12px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  font-size: 14px;
+  background: #f3f3f3;
+}
